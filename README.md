@@ -1,6 +1,19 @@
-# Ember-data-store-push-improvements
+# ember-data-store-push-improvements
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/pangratz/ember-data-store-push-improvements.svg?branch=master)](https://travis-ci.org/pangratz/ember-data-store-push-improvements)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-data-store-push-improvements.svg)](https://emberobserver.com/addons/ember-data-store-push-improvements)
+
+This is a POC addon for [RFC#161](https://github.com/emberjs/rfcs/pull/161),
+which goal is to improve the `store.push` situation within Ember Data.
+
+- [ ] add `store.normalizePayload`
+- [ ] add `store.pushRef`
+
+## Installation
+
+`ember install ember-data-store-push-improvements`
+
+# Development
 
 ## Installation
 
