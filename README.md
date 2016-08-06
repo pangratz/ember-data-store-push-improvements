@@ -6,12 +6,33 @@
 This is a POC addon for [RFC#161](https://github.com/emberjs/rfcs/pull/161),
 which goal is to improve the `store.push` situation within Ember Data.
 
-- [ ] add `store.normalizePayload`
+- [x] add `store.normalizePayload`
 - [ ] add `store.pushRef`
 
 ## Installation
 
 `ember install ember-data-store-push-improvements`
+
+## Code samples
+
+```js
+let normalized = store.normalizePayload({
+  person: {
+    id: 1,
+    name: "GOB"
+  }
+});
+
+assert.deepEqual(normalized, {
+  data: {
+    type: "person",
+    id: "1",
+    attributes: {
+      name: "GOB"
+    }
+  }
+});
+```
 
 # Development
 
