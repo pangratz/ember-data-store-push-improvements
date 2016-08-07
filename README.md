@@ -6,7 +6,7 @@
 This is a POC addon for [RFC#161](https://github.com/emberjs/rfcs/pull/161),
 which goal is to improve the `store.push` situation within Ember Data.
 
-- [x] add `store.normalizePayload`
+- [x] add `store.normalizePayload` ([ember-twiddle](https://ember-twiddle.com/3175d60b7cf3fd11dd8219ae2fe00fe8?fileTreeShown=false&numColumns=2&openFiles=routes.application.js%2Ctemplates.application.hbs))
 - [ ] add `store.pushRef`
 
 ## Installation
