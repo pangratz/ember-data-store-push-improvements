@@ -1,6 +1,6 @@
 {
   "name": "ember-data-store-push-improvements",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "POC for https://github.com/emberjs/rfcs/pull/161",
   "directories": {
     "doc": "doc",
